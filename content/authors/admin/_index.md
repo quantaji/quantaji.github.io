@@ -49,14 +49,14 @@ interests:
 education:
   - area: MSc Data Science
     institution: ETH Zürich
-    date_start: 2021-09
-    date_end: Current
+    date_start: 2021-09-01
+    # date_end: Current
     summary: |
       GPA: 5.75/6.0
   - area: BSc Physics
     institution: Peking University
-    date_start: 2015-09
-    date_end: 2020-07
+    date_start: 2015-09-01
+    date_end: 2020-06-30
     summary: |
       GPA: 92/100
 
