@@ -152,6 +152,47 @@
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
           <!-- List my Research Project Here -->
 
+          <tr onmouseout="master_thesis_stop()" onmouseover="master_thesis_start()">
+            <td width="25%">
+              <div class="one">
+                <div class="two" id='master_thesis_shape'>
+                  <video width="192" height="108" muted autoplay loop>
+                    <source src="research_media/004_master_thesis/demo.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+                <img src='research_media/004_master_thesis/view.png' width="192" height="108">
+              </div>
+              <script type="text/javascript">
+                function master_thesis_start() {
+                  document.getElementById('master_thesis_shape').style.opacity = "1";
+                }
+                function master_thesis_stop() {
+                  document.getElementById('master_thesis_shape').style.opacity = "0";
+                }
+                master_thesis_stop()
+              </script>
+              </script>
+            </td>
+            <td valign="top" width="75%">
+              <papertitle>
+                Master thesis: Moving and Deformable Object Detection
+              </papertitle>
+              <br>
+              <strong>Guangda Ji</strong>.
+              <br>
+              <em>On going master thesis</em> supervised by Prof. <a href="https://hermannblum.net/">Hermann Blum</a>
+              (Univ Bonn and ETHz) and <a href="https://francisengelmann.github.io/">Francis Engelmann</a> (Stanford and
+              ETHz). Stay tuned :) !
+              <br>
+              See <a href="research_media/004_master_thesis/demo.html"><strong>here</strong></a> for a short video demo!
+              <p></p>
+              The goal of this research is to detect moving object relative to the static background and possibly the
+              deforming objects, from purely RGB videos.
+              <p></p>
+            </td>
+          </tr>
+
           <tr onmouseout="arkit_labelmaker_stop()" onmouseover="arkit_labelmaker_start()">
             <td width="25%">
               <div class="one">
@@ -234,41 +275,52 @@
               <p></p>
             </td>
           </tr>
+        </table>
 
-          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-            <tr>
-              <td>
-                <br>
-                <p align="right">
-                  <font size="2">
-                    template adapted from <a href="https://jonbarron.info/">
-                      <font size="2">this awesome website</font>
-                    </a>
-                  </font>
-                </p>
-              </td>
-            </tr>
-          </table>
-          <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tr>
+            <td width="100%" valign="middle">
+              <heading>Projects</heading>
+            </td>
+          </tr>
+        </table>
 
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("UA-116734954-1");
-              pageTracker._trackPageview();
-            } catch (err) { }
-          </script>
-          <!-- Global site tag (gtag.js) - Google Analytics -->
-          <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116734954-1"></script>
-          <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag() { dataLayer.push(arguments); }
-            gtag('js', new Date());
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tr>
+            <td>
+              <br>
+              <p align="right">
+                <font size="2">
+                  template adapted from <a href="https://jonbarron.info/">
+                    <font size="2">this awesome website</font>
+                  </a>
+                </font>
+              </p>
+            </td>
+          </tr>
+        </table>
 
-            gtag('config', 'UA-116734954-1');
-          </script>
+        <script type="text/javascript">
+          var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+          document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+
+        </script>
+        <script type="text/javascript">
+          try {
+            var pageTracker = _gat._getTracker("UA-116734954-1");
+            pageTracker._trackPageview();
+          } catch (err) { }
+        </script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116734954-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag() { dataLayer.push(arguments); }
+          gtag('js', new Date());
+
+          gtag('config', 'UA-116734954-1');
+        </script>
+
       </td>
     </tr>
   </table>

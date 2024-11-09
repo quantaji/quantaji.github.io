@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>HEVC Video Demo</title>
+    <style>
+        /* Remove default margins and paddings */
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        /* Style the video to fill the viewport */
+        video {
+            width: 100%;
+            height: 100%;
+            display: block;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <video controls autoplay>
+        <source src="demo.mp4" type="video/mp4">
+        Your browser does not support HEVC playback.
+    </video>
+</body>
+
+</html>
