@@ -109,12 +109,13 @@
           <tr>
             <td width="67%" valign="middle">
               <p align="center">
-                <name>Guangda Ji (季广达)</name>
+                <name>季广达 Guangda Ji</name>
                 <!--<br>
           ruthfong at robots dot ox dot ac dot uk-->
               </p>
               <p>
-                I am a master student of Data Science program in <a href="https://ethz.ch/en.html"><strong>ETH
+                I am a master student of <a href="" https://inf.ethz.ch/studies/master/master-ds.html">Data Science</a>
+                program in <a href="https://ethz.ch/en.html"><strong>ETH
                     Zürich</strong></a> in Switzerland, where I am working with Prof. <a
                   href="https://hermannblum.net/">Hermann Blum</a> and <a
                   href="https://francisengelmann.github.io/">Francis Engelmann</a> at the <a
@@ -176,7 +177,7 @@
             </td>
             <td valign="top" width="75%">
               <papertitle>
-                Master thesis: Moving and Deformable Object Detection
+                Master Thesis: Moving and Deformable Object Detection
               </papertitle>
               <br>
               <strong>Guangda Ji</strong>.
@@ -219,13 +220,13 @@
               <a href="https://people.inf.ethz.ch/marc.pollefeys/">Marc Pollefeys</a>,
               <a href="https://hermannblum.net/">Hermann Blum</a>.
               <br>
-              <em>Arxiv preprint</em>.
+              <em>Arxiv preprint</em>, 2024
               <br>
               <a href="https://labelmaker.org/">website</a> |
               <a href="https://github.com/cvg/LabelMaker/">code</a> |
               <a href="research_media/003_arkit_labelmaker/paper.pdf">paper pdf</a> |
               <a href="https://arxiv.org/abs/2410.13924">arxiv</a> |
-              <a href="https://huggingface.co/datasets/labelmaker/arkit_labelmaker">dataset</a> |
+              <a href="https://huggingface.co/datasets/labelmaker/arkit_labelmaker"><strong>dataset</strong></a> |
               <a href="https://kaldir.vc.in.tum.de/scannet_benchmark/result_details?id=2021">ScanNet</a> and <a
                 href="https://kaldir.vc.in.tum.de/scannet_benchmark/result_details?id=2015">ScanNet200</a> benchmark
               <p></p>
@@ -281,6 +282,86 @@
           <tr>
             <td width="100%" valign="middle">
               <heading>Projects</heading>
+            </td>
+          </tr>
+        </table>
+
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <!-- List my course Project Here -->
+
+          <tr onmouseout="sp3_graph_connect_stop()" onmouseover="sp3_graph_connect_start()">
+            <td width="25%">
+              <div class="one">
+                <img src='research_media/002_sp3_3d_instance_graph_conect/preview.jpg' width="192" height="108">
+              </div>
+              <script type="text/javascript">
+                function sp3_graph_connect_start() {
+                  document.getElementById('sp3_graph_connect_shape').style.opacity = "1";
+                }
+                function sp3_graph_connect_stop() {
+                  document.getElementById('sp3_graph_connect_shape').style.opacity = "0";
+                }
+                sp3_graph_connect_stop()
+              </script>
+              </script>
+            </td>
+            <td valign="top" width="75%">
+              <papertitle>
+                3D Scene Understanding through CLIP Embedding and Instance Segmentation Fusion
+              </papertitle>
+              <br>
+
+              <strong>Guangda Ji</strong>.
+              <br>
+              <em>Semester thesis</em> in 2023 supervised by <a href="https://www.silvanweder.com/">Silvan Weder</a>.
+              <br>
+              <a href="research_media/002_sp3_3d_instance_graph_conect/report.pdf">report pdf</a> |
+              <a href="https://github.com/quantaji/feature-and-instance-fusion">codebase</a>
+              <p></p>
+              In this project, I proposed a pipeline that fuses 2D instance segmentation into 3D. It first oversegments the 3D scene into pieces and merges them with a graph-connecting algorithm. This pipeline is designed to solve the route dependency issue of <a href="https://arxiv.org/abs/1903.01177">PannopticFusion</a>.
+              <p></p>
+            </td>
+          </tr>
+
+          <tr onmouseout="amd_ssd_stop()" onmouseover="amd_ssd_start()">
+            <td width="25%">
+              <div class="one">
+                <img src='research_media/001_amd_ssd/preview.jpg' width="192" height="108">
+              </div>
+              <script type="text/javascript">
+                function amd_ssd_start() {
+                  document.getElementById('amd_ssd_shape').style.opacity = "1";
+                }
+                function amd_ssd_stop() {
+                  document.getElementById('amd_ssd_shape').style.opacity = "0";
+                }
+                amd_ssd_stop()
+              </script>
+              </script>
+            </td>
+            <td valign="top" width="75%">
+              <papertitle>
+                Adaptive Mechanism Design in Sequential Social Dilemma
+              </papertitle>
+              <br>
+
+              <strong>Guangda Ji</strong>,
+              <a href="https://www.linkedin.com/in/minxuan-qin/">Minxuan Qin</a>,
+              <a href="https://github.com/Leon-LXA">Xuan'ang Lei</a>.
+              <br>
+              <em>Course team project of <a href="https://odi.inf.ethz.ch/teaching/FoRL.html ">Foundations of
+                  Reinforcement Learning</a></em>, 2023
+              <br>
+              <a href="research_media/001_amd_ssd/report.pdf">report pdf</a> |
+              <a href="https://github.com/quantaji/AMD-SSD">codebase</a>
+              <p></p>
+              This project aims to apply <a href="https://arxiv.org/abs/1806.04067">Adaptive Mechanism Design</a> (AMD),
+              a multi-agent reinforcement learning algorithm to two complex <a
+                href="https://arxiv.org/abs/1702.03037">Sequential Social Dilemma</a> environment,
+              <strong>Wolfpack</strong> and <strong>Gathering</strong>. We implement AMD in <a
+                href="https://github.com/ray-project/ray/tree/master/rllib"><code>ray.rllib</code></a> and the open
+              source realization of Wolfpack and gathering.
+              <p></p>
             </td>
           </tr>
         </table>
