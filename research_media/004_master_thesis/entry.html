@@ -1,0 +1,40 @@
+<tr onmouseout="master_thesis_stop()" onmouseover="master_thesis_start()">
+  <td width="25%">
+    <div class="one">
+      <div class="two" id='master_thesis_shape'>
+        <video width="192" height="108" muted autoplay loop>
+          <source src="research_media/004_master_thesis/demo.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <img src='research_media/004_master_thesis/view.png' width="192" height="108">
+    </div>
+    <script type="text/javascript">
+      function master_thesis_start() {
+        document.getElementById('master_thesis_shape').style.opacity = "1";
+      }
+      function master_thesis_stop() {
+        document.getElementById('master_thesis_shape').style.opacity = "0";
+      }
+      master_thesis_stop()
+    </script>
+    </script>
+  </td>
+  <td valign="top" width="75%">
+    <papertitle>
+      Master Thesis: Moving and Deformable Object Detection
+    </papertitle>
+    <br>
+    <strong>Guangda Ji</strong>.
+    <br>
+    <a href="https://github.com/quantaji/thesis_final_version">code</a> |
+    <a href="https://www.overleaf.com/read/cvkgdycbgxpm#4d7015">thesis pdf</a>
+    <br>
+    Master thesis supervised by <a href="https://hermannblum.net/">Hermann Blum</a> and <a
+      href="https://francisengelmann.github.io/">Francis Engelmann</a>.
+    <p></p>
+    The goal is to detect moving object relative to the static background and possibly the
+    deforming objects, from purely RGB videos. See <a
+      href="research_media/004_master_thesis/demo.html"><strong>here</strong></a> for a short video demo.
+  </td>
+</tr>

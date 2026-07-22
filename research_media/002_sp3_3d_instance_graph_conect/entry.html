@@ -1,0 +1,35 @@
+<tr onmouseout="sp3_graph_connect_stop()" onmouseover="sp3_graph_connect_start()">
+  <td width="25%">
+    <div class="one">
+      <img src='research_media/002_sp3_3d_instance_graph_conect/preview.jpg' width="192" height="108">
+    </div>
+    <script type="text/javascript">
+      function sp3_graph_connect_start() {
+        document.getElementById('sp3_graph_connect_shape').style.opacity = "1";
+      }
+      function sp3_graph_connect_stop() {
+        document.getElementById('sp3_graph_connect_shape').style.opacity = "0";
+      }
+      sp3_graph_connect_stop()
+    </script>
+    </script>
+  </td>
+  <td valign="top" width="75%">
+    <papertitle>
+      3D Scene Understanding through CLIP Embedding and Instance Segmentation Fusion
+    </papertitle>
+    <br>
+
+    <strong>Guangda Ji</strong>.
+    <br>
+    <em>Semester thesis</em> in 2023 supervised by <a href="https://www.silvanweder.com/">Silvan Weder</a>.
+    <br>
+    <a href="research_media/002_sp3_3d_instance_graph_conect/report.pdf">report pdf</a> |
+    <a href="https://github.com/quantaji/feature-and-instance-fusion">codebase</a>
+    <p></p>
+    In this project, I proposed a pipeline that fuses 2D instance segmentation into 3D. It first oversegments
+    the 3D scene into pieces and merges them with a graph-connecting algorithm. This pipeline is designed to
+    solve the route dependency issue of <a href="https://arxiv.org/abs/1903.01177">PannopticFusion</a>.
+    <p></p>
+  </td>
+</tr>

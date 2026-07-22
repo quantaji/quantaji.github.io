@@ -1,0 +1,42 @@
+<tr onmouseout="arkit_labelmaker_stop()" onmouseover="arkit_labelmaker_start()">
+  <td width="25%">
+    <div class="one">
+      <img src='research_media/003_arkit_labelmaker/preview.jpeg' width="160" height="120">
+    </div>
+    <script type="text/javascript">
+      function arkit_labelmaker_start() {
+        document.getElementById('arkit_labelmaker_shape').style.opacity = "1";
+      }
+      function arkit_labelmaker_stop() {
+        document.getElementById('arkit_labelmaker_shape').style.opacity = "0";
+      }
+      arkit_labelmaker_stop()
+    </script>
+    </script>
+  </td>
+  <td valign="top" width="75%">
+    <papertitle> ARKit LabelMaker: A New Scale for Indoor 3D Scene Understanding</papertitle>
+    <br>
+    <strong>Guangda Ji</strong>,
+    <a href="https://www.silvanweder.com/">Silvan Weder</a>,
+    <a href="https://francisengelmann.github.io/">Francis Engelmann</a>,
+    <a href="https://people.inf.ethz.ch/marc.pollefeys/">Marc Pollefeys</a>,
+    <a href="https://hermannblum.net/">Hermann Blum</a>.
+    <br>
+    <em>CVPR</em>, 2025
+    <br>
+    <a href="https://labelmaker.org/">website</a> |
+    <a href="https://github.com/cvg/LabelMaker/">code</a> |
+    <a href="research_media/003_arkit_labelmaker/paper.pdf">paper pdf</a> |
+    <a href="https://arxiv.org/abs/2410.13924">arxiv</a> |
+    <a href="https://huggingface.co/datasets/labelmaker/arkit_labelmaker"><strong>dataset</strong></a> |
+    <a href="https://kaldir.vc.in.tum.de/scannet_benchmark/result_details?id=2021">ScanNet</a> and <a
+      href="https://kaldir.vc.in.tum.de/scannet_benchmark/result_details?id=2015">ScanNet200</a> benchmark
+    <p></p>
+    We apply <a href="https://arxiv.org/abs/2311.12174">LabelMaker</a> automatic annotation pipeline to <a
+      href="https://machinelearning.apple.com/research/arkitscenes">ARKitScenes</a> dataset and construct a
+    large 3D indoor semantic segmentaiton dataset. Using this dataset and <a
+      href="https://github.com/Pointcept/Pointcept">Point Transformer V3</a>, we achieve state-of-the-art
+    performance on ScanNet and ScanNet200 benchmark.
+  </td>
+</tr>

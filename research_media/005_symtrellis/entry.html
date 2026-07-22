@@ -1,0 +1,43 @@
+<tr onmouseout="symtrellis_stop()" onmouseover="symtrellis_start()">
+  <td width="25%">
+    <div class="one">
+      <img src='research_media/005_symtrellis/image.png' width="192" height="120">
+    </div>
+    <script type="text/javascript">
+      function symtrellis_start() {
+        document.getElementById('symtrellis_shape').style.opacity = "1";
+      }
+      function symtrellis_stop() {
+        document.getElementById('symtrellis_shape').style.opacity = "0";
+      }
+      symtrellis_stop()
+    </script>
+    </script>
+  </td>
+  <td valign="top" width="75%">
+    <papertitle>
+      SymTRELLIS: Symmetry-Enforced Voxel Latents for 3D Generation
+    </papertitle>
+    <br>
+    <strong>Guangda Ji</strong>,
+    <a href="https://qiminchen.github.io/">Qimin Chen</a>,
+    <a href="https://qinchanli.github.io/">Qinchan Li</a>,
+    <a href="https://mingrui-zhao.github.io/">Mingrui Zhao</a>,
+    <a href="https://kwang-ether.github.io/">Kai Wang</a>,
+    <a href="https://www.cs.sfu.ca/~haoz/">Hao Zhang</a>.
+    <br>
+    <em>ACM SIGGRAPH Asia</em> 2026 Technical Paper
+    <br>
+    <a href="https://symtrellis.github.io/">project site</a>
+    | <a href="https://github.com/symtrellis/SymTRELLIS">code</a>
+    | <a href="https://arxiv.org/pdf/2606.04108">paper pdf</a>
+    | <a href="https://arxiv.org/abs/2606.04108">arxiv</a>
+    | <a href="https://huggingface.co/spaces/quantaji/SymTRELLIS">demo</a>
+    | <a href="https://huggingface.co/symtrellis/SymTRELLIS">models</a>
+    | <a href="https://huggingface.co/datasets/symtrellis/SymTRELLIS-Latent-Transform-Pairs">training data</a>
+    | <a href=".">dataset (TBD)</a>
+    <p></p>
+    We proposed a method that enforces arbitrary finite 3D point-group symmetries directly during generation for
+    voxel-based models such as TRELLIS.2 and SAM 3D, without flow or VAE retraining or generation-time optimization.
+  </td>
+</tr>

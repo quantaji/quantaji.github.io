@@ -1,0 +1,41 @@
+<tr onmouseout="amd_ssd_stop()" onmouseover="amd_ssd_start()">
+  <td width="25%">
+    <div class="one">
+      <img src='research_media/001_amd_ssd/preview.jpg' width="192" height="108">
+    </div>
+    <script type="text/javascript">
+      function amd_ssd_start() {
+        document.getElementById('amd_ssd_shape').style.opacity = "1";
+      }
+      function amd_ssd_stop() {
+        document.getElementById('amd_ssd_shape').style.opacity = "0";
+      }
+      amd_ssd_stop()
+    </script>
+    </script>
+  </td>
+  <td valign="top" width="75%">
+    <papertitle>
+      Adaptive Mechanism Design in Sequential Social Dilemma
+    </papertitle>
+    <br>
+
+    <strong>Guangda Ji</strong>,
+    <a href="https://www.linkedin.com/in/minxuan-qin/">Minxuan Qin</a>,
+    <a href="https://github.com/Leon-LXA">Xuan'ang Lei</a>.
+    <br>
+    <em>Course team project of <a href="https://odi.inf.ethz.ch/teaching/FoRL.html ">Foundations of
+        Reinforcement Learning</a></em>, 2023
+    <br>
+    <a href="research_media/001_amd_ssd/report.pdf">report pdf</a> |
+    <a href="https://github.com/quantaji/AMD-SSD">codebase</a>
+    <p></p>
+    This project aims to apply <a href="https://arxiv.org/abs/1806.04067">Adaptive Mechanism Design</a> (AMD),
+    a multi-agent reinforcement learning algorithm to two complex <a
+      href="https://arxiv.org/abs/1702.03037">Sequential Social Dilemma</a> environment,
+    <strong>Wolfpack</strong> and <strong>Gathering</strong>. We implement AMD in <a
+      href="https://github.com/ray-project/ray/tree/master/rllib"><code>ray.rllib</code></a> and the open
+    source realization of Wolfpack and gathering.
+    <p></p>
+  </td>
+</tr>
